@@ -32,5 +32,6 @@ fn main() {
     let age = 27;
     let peter = Person { name, age };
     
+    // pretty printing
     println!("{:#?}", peter);
 }
